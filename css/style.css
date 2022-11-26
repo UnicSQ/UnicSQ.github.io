@@ -1,0 +1,464 @@
+{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*before,*after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box; 
+}
+:focus, :acrive{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body {
+padding: 30px;
+font-family: Panton, sans-serif;
+background-image: url("https://i.gifer.com/9vxx.gif");
+
+}
+
+
+ 	    @media (max-width: 2304px) {
+        .content{
+          width: 1200px;
+          position:absolute;
+          top: 0;
+          left: 25%;
+      }
+  @media (max-width: 2920px) {
+        .content{
+          width: 1200px;
+          position:absolute;
+          top: 0;
+          left: 16%;
+    }}
+    @media (max-width: 1600px) {
+      
+        .content{
+          width: 1200px;
+          position:absolute;
+          top: 0;
+          left: 12.5%;
+          
+      }
+          }
+       
+        @media (max-width: 1270px) {
+            .content{
+              width: 1200px;
+              position:absolute;
+              top: 0;
+              left:55px;
+          }
+              }
+            @media (max-width: 1024px) {
+          .content{
+            width: 1200px;
+            position:absolute;
+            top: 0;
+            left:0%;
+              }}
+ .head-style{
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  
+  
+  width: 1200px;
+  height: 768px;
+
+  background-color: rgba(0, 0, 0, 0.400);
+ 
+}
+
+a{
+  
+  text-decoration: none;
+  font-weight: 700;
+}
+body{
+  font-variant:small-caps;
+  margin: 0% ;
+
+  
+}
+.main-text{
+  width: 1200px;
+  height: 25px;
+
+  position: absolute;
+  top: 0;
+  
+
+  background-color: black;
+  color: white;
+
+  text-align: center;
+  font-size: 15px;
+}
+nav{
+  display: flex;
+
+  width: 1200px;
+  height: 60px;
+
+  position: absolute;
+  top: 25px;
+  
+  background-color: white;
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-a{
+  flex: 1;
+  color: black;
+  padding:15px; 
+
+}
+.m1{
+  margin: 10px;
+}
+.m2{
+  margin: 20px;
+}
+header{
+
+  width: 1200px;
+  height: 768px;
+
+  position: absolute;
+  top: 85px;
+  
+  background-image: url("https://ohotnik-kolomna.ru/oruzie/img/zlatoust.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.header-text{
+  
+  font-size: 40px;
+
+  color: white;
+  
+}
+.header-text1{
+  
+  
+  font-size: 25px;
+
+  color: white;
+  
+}
+.header-a{
+  background-color: rgb(230, 34, 0);
+  color: white;
+
+  margin: 3px;
+  padding: 10px 30px;
+  border-radius: 40px;
+
+  font-size: 14px;
+  
+}
+.p-ico{
+
+  display: flex;
+
+  position: absolute;
+  top:calc(25px + 60px + 768px);
+  
+  width: 1200px;
+  height: 80px;
+
+  background-color: black;
+
+}
+.p-ico-a{
+  flex: 1;
+
+  text-align: center;
+  
+  margin: 25px;
+}
+article{
+  background-color: white;
+
+  width: 1200px;
+  height: 3200px;
+
+  position: absolute;
+  top: calc(25px + 60px + 768px + 80px);
+
+  text-align: center;
+}
+.art-kninfo-text{
+  color: rgb(0, 0, 0);
+  font-size: 170%;
+
+}
+.info-knite-in-stock-hike , .page{
+  display: flex;
+
+
+}
+
+.in-stock-knife1{
+  flex: 1;
+  
+}
+.in-stock-knife2{
+  flex: 2;
+  margin: 10px;
+  color: white;
+  background-color: black;
+}
+
+.in-stock-knife-text1{
+  position: absolute;
+  top: 350px;
+  left: 330px;
+}
+
+.in-stock-knife-text2  {
+  position: absolute;
+  top: 350px;
+  left: 755px;
+}
+.in-stock-knife-a1{
+
+  position: absolute;
+  top: 390px;
+  left: 350px;
+
+}
+.in-stock-knife-a2{
+  position: absolute;
+  top: 390px;
+  left: 770px;
+
+}
+.in-stock-knife-a1,.in-stock-knife-a2{
+  color: white;
+  text-decoration: transparent;
+}
+
+
+.art-style-1{
+  width: 1200px;
+  height: 768px;
+
+  background-size: cover;
+  background-image: url("https://nozhiman.ru/image/cache/catalog/image/cache/catalog/products/2017/01/151321/730_1-1440x1080.webp") ;
+  color: black;
+}
+.header-text1{
+  font-size: 25px;
+  color: white;
+}
+.art-text{
+  font-size: 40px;
+  padding: 30px 0px 0px 0px;
+
+  background-color: rgba(0, 0, 0, 0.100);
+  color: rgb(255, 255, 255);
+}
+.art-text1{
+  font-size: 25px;
+
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.100);
+}
+.in-stock-knife-id21 , .in-stock-knife-id25{
+  flex: 2;
+
+}
+.in-stock-knife-id22 , .in-stock-knife-id23{
+  flex: 4;
+  margin: 10px;
+}
+.in-stock-knife-id24{
+  flex: 4;
+ 
+  color: black;
+  text-align: left;
+  margin: 10px;
+}
+
+.main-text-2{
+  font-weight: 900;
+  font-size: 30px;
+}
+.castom-text{
+  font-size: 20px;
+}
+.tm-img{
+  display: flex;
+}
+.d-img1,.d-img2,.d-img3{
+  flex: 1;
+  width: 362px;
+  height: 362px;
+  сolor: white;
+
+  background-size: cover;
+}
+.d-img1{
+  background-image: url("https://cdn11.bigcommerce.com/s-blqh8ck/images/stencil/700x700/products/5133/22480/IMG_7847__75126.1619567345.jpg?c=2");
+}
+.d-img2{
+  background-image: url("https://cdn.shopify.com/s/files/1/1054/1198/products/blue-krypton-mega-knife-set-8-pieces@2x.jpg?v=1614270647");
+}
+.d-img3{
+  background-image: url("https://i.pinimg.com/originals/ff/95/df/ff95dfddb4c1787021c1494a3e57f8c6.jpg");
+}
+.d-img-a{
+  color: white;
+  margin: 0;
+}
+.d-img-p{
+ margin-top: 40%;
+ font-weight: 900;
+}
+.video{
+  margin-left: 9.5%;
+  display: flex;
+  width: 1200px;
+  height: 400px;
+}
+
+iframe{
+  margin: 30px;
+  width: 430px;
+  height: 260px;
+
+}
+.accories{
+  margin-left:  calc(19.5% - 368px/2 + 3px);
+
+  position: absolute;
+  top:2350px ;
+  left: 0;
+
+  text-align: center;
+
+  width: 1087px;
+  height: 400px;
+
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.goods-page{
+  display: flex;
+}
+.goods{
+  text-align: center;
+  color: coral;
+  flex: 1;
+}
+.best-info{
+  position: absolute;
+  top:2800px ;
+  left: 0;
+  display: flex;
+  text-align: center;
+
+  width: 1200px;
+  height: 400px;
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.b-main-text{
+  font-size: 30px;
+}
+.b-custom-text{
+  font-size: 15px;
+}
+.plus{
+  margin-top: 80px;
+  flex: 1;
+  
+  
+}
+.info-site{
+
+  position: absolute;
+  top:3200px;
+  left: 0;
+  display: flex;
+  text-align: center;
+
+  width: 1200px;
+  height: 300px;
+
+  background-color: #f7f7f7;
+  color: rgb(0, 0, 0);
+}
+.info1{
+  flex: 1;
+  margin: 60px;
+}
+.info2{
+  flex: 1;
+  font-size: 15px;
+}
+.info3{
+  flex: 3;
+  font-size: 15px;
+}
+.footer {
+  position: absolute;
+  top:3500px;
+  left: 0;
+  display: flex;
+  text-align: center;
+
+  width: 1200px;
+  height: 100px;
+
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.f-text{
+    margin:20px;
+  flex: 1;
+  display: flex;
+}
+.img-f{
+  flex: 1;
+}
+.al-f-img{
+  margin-left: 35%;
+}
+.im1, .im2{
+  margin: 20px;
+
+}
